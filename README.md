@@ -8,11 +8,12 @@ X0: Pivot X position
 Y0: Pivot Y position
 
 A, B, C, D: Values which define the transformation like a parallelogram.
-  A and D represent the width and height, C and D are used for the shearing effect.
+A and D represent the width and height, C and D are used for the shearing effect.
 
 Video explanation of SNES Background Mode 7 (by dotsarecool/Retro Game Mechanics Explained):
-https://www.youtube.com/watch?v=3FVN_Ze7bzw&t=784s
+https://www.youtube.com/watch?v=3FVN_Ze7bzw
 This video also acted as a source for all the math involved in this.
+A visual representation of the A, B, C and D values can be seen at 4:12 in the video.
 
 
 The Mode7Controller.cs script provides a list of Mode7Config structs (a Mode7Config struct stores all of the 8 exposed properties).
