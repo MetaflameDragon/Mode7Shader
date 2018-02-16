@@ -20,7 +20,7 @@ public class Mode7Controller : MonoBehaviour
 		{
 			if (!_material)
 			{
-				_material = GetComponent<Renderer>().material;
+				ReloadMaterial();
 			}
 			return _material;
 		}
@@ -59,6 +59,11 @@ public class Mode7Controller : MonoBehaviour
 		Material.SetFloat("_B", config.b);
 		Material.SetFloat("_C", config.c);
 		Material.SetFloat("_D", config.d);
+	}
+
+	public void ReloadMaterial()
+	{
+		_material = GetComponent<Renderer>().sharedMaterial;
 	}
 }
 

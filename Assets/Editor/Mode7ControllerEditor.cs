@@ -17,11 +17,18 @@ public class Mode7ControllerEditor : Editor
 
 	public override void OnInspectorGUI()
 	{
+		Mode7Controller controller = (Mode7Controller)target;
+
+		// Use this if the material/shader doesn't get updated after clicking a transition button
+		if (GUILayout.Button("Reload Material"))
+		{
+			controller.ReloadMaterial();
+		}
+
 		col1 = EditorGUILayout.ColorField("Odd row colour", col1);
 		col2 = EditorGUILayout.ColorField("Even row colour", col2);
 		colSelected = EditorGUILayout.ColorField("Selected row colour", colSelected);
 
-		Mode7Controller controller = (Mode7Controller)target;
 
 		controller.animationCurve = EditorGUILayout.CurveField("Animation Curve", controller.animationCurve, Colour.green, new Rect(0, 0, 1, 1), GUILayout.Height(100));
 
@@ -124,7 +131,10 @@ public class Mode7ControllerEditor : Editor
 			if (GUI.Button(new Rect(buttonWidth + 20 + spacing + (spacing + fieldWidth) * 8 + 30 + spacing, r.y, 30, r.height), "-", richTextButtonStyle))
 			{
 				controller.configs.RemoveAt(i);
-				selectedIndex = Mathf.Max(0, selectedIndex - 1);
+				if (selectedIndex == i)
+				{
+					selectedIndex = Mathf.Max(selectedIndex - 1, 0);
+				}
 				UpdateConfig(controller);
 			}
 		}

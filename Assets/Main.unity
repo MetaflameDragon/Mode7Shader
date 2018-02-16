@@ -286,26 +286,206 @@ MonoBehaviour:
       outSlope: 0
       tangentMode: 0
     - serializedVersion: 2
+      time: 0.361228
+      value: 0.20587035
+      inSlope: 1.563025
+      outSlope: 2.886195
+      tangentMode: 1
+    - serializedVersion: 2
+      time: 0.6544236
+      value: 0.8043361
+      inSlope: 0.8830015
+      outSlope: 0.643303
+      tangentMode: 1
+    - serializedVersion: 2
       time: 1
       value: 1
-      inSlope: 0
-      outSlope: 0
+      inSlope: -0.038606193
+      outSlope: -0.038606193
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
-  animationTime: 0
+  animationTime: 1
   timeStep: 0.05
-  animationStartTime: 0
+  animationStartTime: 1962.2621
   configs:
+  - h: 1.5
+    v: 0.56
+    x0: 2
+    y0: 1
+    a: 1
+    b: 0
+    c: 0
+    d: 1
+  - h: 1.5
+    v: 0.56
+    x0: 2
+    y0: 1
+    a: 0.866
+    b: 0.5
+    c: -0.5
+    d: 0.866
+  - h: 1.5
+    v: 0.56
+    x0: 2
+    y0: 1
+    a: 0.5
+    b: 0.866
+    c: -0.866
+    d: 0.5
+  - h: 1.5
+    v: 0.56
+    x0: 2
+    y0: 1
+    a: 0
+    b: 1
+    c: -1
+    d: 0
+  - h: 1.5
+    v: 0.56
+    x0: 2
+    y0: 1
+    a: -0.5
+    b: 0.866
+    c: -0.866
+    d: -0.5
+  - h: 1.5
+    v: 0.56
+    x0: 2
+    y0: 1
+    a: -0.866
+    b: 0.5
+    c: -0.5
+    d: -0.866
+  - h: 1.5
+    v: 0.56
+    x0: 2
+    y0: 1
+    a: -1
+    b: 0
+    c: 0
+    d: -1
+  - h: 1.5
+    v: 0.56
+    x0: 2
+    y0: 1
+    a: -0.866
+    b: -0.5
+    c: 0.5
+    d: -0.866
+  - h: 1.5
+    v: 0.56
+    x0: 2
+    y0: 1
+    a: -0.5
+    b: -0.866
+    c: 0.866
+    d: -0.5
+  - h: 1.5
+    v: 0.56
+    x0: 2
+    y0: 1
+    a: 0
+    b: -1
+    c: 1
+    d: 0
+  - h: 1.5
+    v: 0.56
+    x0: 2
+    y0: 1
+    a: 0.5
+    b: -0.866
+    c: 0.866
+    d: 0.5
+  - h: 1.5
+    v: 0.56
+    x0: 2
+    y0: 1
+    a: 0.866
+    b: -0.5
+    c: 0.5
+    d: 0.866
+  - h: 0
+    v: 0
+    x0: 0
+    y0: 0
+    a: 1
+    b: 0
+    c: 0
+    d: 1
+  - h: 0
+    v: 0
+    x0: 0
+    y0: 0
+    a: 4
+    b: 0
+    c: 0
+    d: 4
   - h: 0
     v: 0
     x0: 0
     y0: 0
     a: 0
+    b: 4
+    c: 4
+    d: 0
+  - h: 0
+    v: 0
+    x0: 0
+    y0: 0
+    a: -4
     b: 0
     c: 0
-    d: 0
+    d: -4
+  - h: 0.75
+    v: 0.5
+    x0: 0
+    y0: 0
+    a: 2
+    b: 0
+    c: 0
+    d: 1
+  - h: 0.5
+    v: 0.5
+    x0: 1
+    y0: -1
+    a: 2
+    b: 1
+    c: -1
+    d: 2
+  - h: 0.5
+    v: 0.5
+    x0: 1
+    y0: -1
+    a: 3
+    b: 0
+    c: 0
+    d: 3
+  - h: 16.3
+    v: -8
+    x0: 16
+    y0: -8
+    a: 12
+    b: -35
+    c: 4
+    d: 12
+  - h: -24
+    v: -4
+    x0: -24
+    y0: -4
+    a: 12
+    b: 30
+    c: -6
+    d: 12
+  - h: 64.3
+    v: -64
+    x0: 64
+    y0: -64
+    a: 96
+    b: -280
+    c: 32
+    d: 96
 --- !u!1 &1876515950
 GameObject:
   m_ObjectHideFlags: 0
