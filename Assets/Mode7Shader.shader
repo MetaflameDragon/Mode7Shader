@@ -4,9 +4,6 @@
 	{
 		_MainTex("Texture", 2D) = "white" {}
 
-	_TextureSizeX("Texture Size X", Float) = 512
-		_TextureSizeY("Texture Size Y", Float) = 512
-
 		_H("H", Float) = 0
 		_V("V", Float) = 0
 		_X0("Pivot X", Float) = 0
@@ -69,9 +66,6 @@
 	float _B;
 	float _C;
 	float _D;
-
-	float _TextureSizeX;
-	float _TextureSizeY;
 
 	float4 _BorderCol;
 	int _BorderMode;
